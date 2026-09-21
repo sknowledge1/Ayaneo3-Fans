@@ -1,0 +1,11 @@
+{
+  "name": "Ayaneo3 Fans",
+  "author": "sknowledge1 and contributors",
+  "flags": [],
+  "api_version": 1,
+  "publish": {
+    "tags": ["fan", "ayaneo"],
+    "description": "Fan controls for all AYANEO 3 models. Requires the shared service from sknowledge1/Ayaneo-3-Fan-Controls.",
+    "image": "https://opengraph.githubassets.com/1/sknowledge1/Ayaneo3-Fans"
+  }
+}

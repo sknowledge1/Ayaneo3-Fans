@@ -1,0 +1,17 @@
+{
+  "name": "ayaneo3-fans",
+  "version": "0.5.0",
+  "type": "module",
+  "packageManager": "pnpm@9.15.9",
+  "engines": {"node": ">=18.12"},
+  "description": "Ayaneo3 Fans for Decky, using the separately installed AYANEO 3 fan service.",
+  "license": "MIT",
+  "author": "sknowledge1 and contributors",
+  "homepage": "https://github.com/sknowledge1/Ayaneo3-Fans",
+  "repository": {"type": "git", "url": "https://github.com/sknowledge1/Ayaneo3-Fans.git"},
+  "scripts": {
+    "build": "node scripts/build-frontend.mjs",
+    "test": "python3 -m unittest discover -s tests -v && node --test tests/test_panel.mjs",
+    "package": "python3 scripts/build-decky-package.py"
+  }
+}
