@@ -1,5 +1,14 @@
 # Ayaneo3 Fans
 
+> [!CAUTION]
+> **Deprecated proof of concept — feature development is frozen.** Fan control
+> is moving to the stock interface through
+> [PowerStation PR #54](https://github.com/ShadowBlip/PowerStation/pull/54) and
+> [OpenGamepadUI PR #550](https://github.com/ShadowBlip/OpenGamepadUI/pull/550).
+> This Decky frontend is not part of that upstream cycle. Existing releases are
+> retained unchanged only as rollback and engineering evidence; new users should
+> wait for the native upstream implementation.
+
 Fan controls for every AYANEO 3 model in Decky Loader. Ayaneo3 Fans is a thin
 frontend for the separately installed shared fan service maintained at:
 https://github.com/sknowledge1/Ayaneo-3-Fan-Controls
